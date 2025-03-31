@@ -11,7 +11,7 @@ const testimonials = [
     name: "John Dlamini",
     service: "Car Purchase",
     car: "Toyota Fortuner",
-    image: "/placeholder.svg?height=100&width=100&text=JD",
+    image: "https://media.istockphoto.com/id/1358646547/photo/cheerful-young-man-making-selfie-at-home.jpg?s=612x612&w=0&k=20&c=Qk12gvzjPHmJ-x43Sq4VQNV2J4ZWmoeNjEULpoDG_mQ=",
     content:
       "LN Car Connect made buying my dream car a breeze. Lwandie was professional, knowledgeable, and found me exactly what I was looking for within my budget. The paperwork was handled efficiently, and I drove away with my new car in no time!",
     rating: 5,
@@ -21,7 +21,7 @@ const testimonials = [
     name: "Sarah Mkhize",
     service: "Car Sale",
     car: "VW Golf",
-    image: "/placeholder.svg?height=100&width=100&text=SM",
+    image: "https://www.shutterstock.com/image-photo/young-happy-black-african-woman-600nw-2055003296.jpg",
     content:
       "I was worried about selling my car privately, but LN Car Connect made it stress-free. They got me a better price than I expected and handled all the compliance paperwork. I'll definitely use their services again in the future.",
     rating: 5,
@@ -31,7 +31,7 @@ const testimonials = [
     name: "Thabo Molefe",
     service: "Compliance Assistance",
     car: "Ford Ranger",
-    image: "/placeholder.svg?height=100&width=100&text=TM",
+    image: "https://img.freepik.com/free-photo/close-up-man-taking-selfie_23-2149028785.jpg",
     content:
       "The team at LN Car Connect are true professionals. They guided me through the entire selling process and ensured all compliance requirements were met. Their attention to detail and customer service is outstanding.",
     rating: 5,
@@ -41,7 +41,7 @@ const testimonials = [
     name: "Nomsa Khumalo",
     service: "Car Purchase",
     car: "Hyundai Tucson",
-    image: "/placeholder.svg?height=100&width=100&text=NK",
+    image: "https://www.shutterstock.com/image-photo/african-woman-starting-live-video-600nw-2186176933.jpg",
     content:
       "As a first-time car buyer, I was nervous about the process. Lwandie patiently explained everything and helped me find a reliable car within my budget. The financing assistance was invaluable, and I'm very happy with my purchase.",
     rating: 4,
@@ -51,7 +51,7 @@ const testimonials = [
     name: "David Smith",
     service: "Car Sale & Purchase",
     car: "BMW 3 Series",
-    image: "/placeholder.svg?height=100&width=100&text=DS",
+    image: "https://media.istockphoto.com/id/623373020/photo/young-black-business-man-taking-funny-selfie.jpg?s=612x612&w=0&k=20&c=CgvzUYzllVOJQ1KpGSIuKxwZPfeCvTjIV7LJXVgzJIg=",
     content:
       "I used LN Car Connect to both sell my old car and purchase a new one. The transition was seamless, and they handled all the paperwork for both transactions. Their expertise saved me time and money. Highly recommended!",
     rating: 5,
@@ -61,7 +61,7 @@ const testimonials = [
     name: "Precious Ndlovu",
     service: "Financing Assistance",
     car: "Mercedes C-Class",
-    image: "/placeholder.svg?height=100&width=100&text=PN",
+    image: "https://www.shutterstock.com/image-photo/portrait-african-american-woman-smiling-260nw-1629683485.jpg",
     content:
       "I had been rejected by several banks for car financing, but LN Car Connect managed to secure me a good deal with reasonable terms. Their knowledge of the financing landscape is impressive, and their service is top-notch.",
     rating: 5,
