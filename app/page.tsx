@@ -45,7 +45,7 @@ export default function HomePage() {
         >
           <div className="mb-6">
             <Image
-              src="https://www.creativefabrica.com/wp-content/uploads/2019/03/Monogram-LN-Logo-Design-by-Greenlines-Studios-1.jpg"
+              src="https://www.creativefabrica.com/wp-content/uploads/2019/03/Monogram-LN-Logo-Design-by-Greenlines-Studios.jpg"
               alt="LN Car Connect Logo"
               width={120}
               height={120}
@@ -192,32 +192,30 @@ export default function HomePage() {
             viewport={{ once: true }}
             variants={staggerContainer}
           >
-            {[
-              {
-                id: 1,
-                imageUrl: "https://res.cloudinary.com/halfway-group/image/upload/f_auto,fl_lossy/w_636%2Cq_90%2Cc_scale/v1719467948/oem/full/toyota/corolla/60027781/colour-selectors/attitude_black_q37u1m.png",
-                model: "Toyota Corolla 2020",
-                price: "R250,000",
-                mileage: "30,000 km",
-                year: 2020,
-              },
-              {
-                id: 2,
-                imageUrl: "https://media.cdntoyota.co.za/toyotacms23/attachments/clhggojmoj9xbcfw18tkrg5xe-gr-corolla-hatch-core-ret-040-rgb.desktop.png",
-                model: "Toyota Corolla Hatchback 2021",
-                price: "R275,000",
-                mileage: "20,000 km",
-                year: 2021,
-              },
-              {
-                id: 3,
-                imageUrl: "https://www.toyota.com.sg/showroom/new-models/-/media/b1275effd9d845adbfdb31317d726b11.png",
-                model: "Toyota Corolla Sedan 2022",
-                price: "R300,000",
-                mileage: "15,000 km",
-                year: 2022,
-              },
-            ].map((car) => (
+            {[{
+              id: 1,
+              imageUrl: "https://res.cloudinary.com/halfway-group/image/upload/f_auto,fl_lossy/w_636%2Cq_90%2Cc_scale/v1719467948/oem/full/toyota/corolla/60027781/colour-selectors/attitude_black_q37u1m.png",
+              model: "Toyota Corolla 2020",
+              price: "R250,000",
+              mileage: "30,000 km",
+              year: 2020,
+            },
+            {
+              id: 2,
+              imageUrl: "https://media.cdntoyota.co.za/toyotacms23/attachments/clhggojmoj9xbcfw18tkrg5xe-gr-corolla-hatch-core-ret-040-rgb.desktop.png",
+              model: "Toyota Corolla Hatchback 2021",
+              price: "R275,000",
+              mileage: "20,000 km",
+              year: 2021,
+            },
+            {
+              id: 3,
+              imageUrl: "https://www.toyota.com.sg/showroom/new-models/-/media/b1275effd9d845adbfdb31317d726b11.png",
+              model: "Toyota Corolla Sedan 2022",
+              price: "R300,000",
+              mileage: "15,000 km",
+              year: 2022,
+            }].map((car) => (
               <motion.div key={car.id} variants={fadeIn}>
                 <Card className="overflow-hidden transition-all hover:shadow-lg">
                   <div className="relative h-48">
