@@ -220,7 +220,7 @@ export const carDatabase: CarMake[] = [
         year: 2022,
         price: 720000,
         mileage: 15000,
-        image: "https://media.mercedes-benz.com/square-gallery/Mercedes-Benz_A-Class_2022_4000x2250.jpg",
+        image: "https://www.mercedes-benz.co.za/content/dam/hq/passengercars/cars/a-class/hatchback-w177-fl-pi/modeloverview/08-2023/images/mercedes-benz-a-class-w177-696x392-08-2023.png",
       },
       {
         id: 902,
@@ -228,7 +228,7 @@ export const carDatabase: CarMake[] = [
         year: 2021,
         price: 950000,
         mileage: 20000,
-        image: "https://cdn.motor1.com/images/mgl/v7X7Z/s3/2021-mercedes-benz-e-class-e350d-w213-rhd-review-5.jpg",
+        image: "https://www.mercedes-benz.co.za/content/dam/hq/passengercars/cars/e-class/e-class-saloon-w214-pi/overview/highlights/02-2023/images/mercedes-benz-e-class-w214-highlights-videostill-3302x1858-02-2023.jpg",
       },
     ],
   },
@@ -236,7 +236,7 @@ export const carDatabase: CarMake[] = [
     id: 10,
     name: "Toyota",
     country: "Japan",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/2/27/Toyota_logo.png",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1kRDeW7I8vx4Dpc9f3sH3TLs_T-4qCvc_nA&s",
     models: [
       {
         id: 1001,
@@ -244,7 +244,7 @@ export const carDatabase: CarMake[] = [
         year: 2022,
         price: 350000,
         mileage: 12000,
-        image: "https://cdn.autoweek.com/cms/images/1024854/a.jpg",
+        image: "https://media.cdntoyota.co.za/toyotacms23/attachments/clb0vik5g003g0pntr4o0sc6o-66l-sedan-1-8-xr-hybrid-040.desktop.png",
       },
       {
         id: 1002,
@@ -252,7 +252,7 @@ export const carDatabase: CarMake[] = [
         year: 2021,
         price: 490000,
         mileage: 22000,
-        image: "https://media.toyota.co.uk/files/2021/05/Camry-X-CM-Main-3.jpg",
+        image: "https://www.toyota.com.sg/showroom/new-models/-/media/d9c89d187ab94cfbb21427a950fc521d.png",
       },
     ],
   },
