@@ -20,7 +20,7 @@ export const carDatabase: CarMake[] = [
     id: 1,
     name: "Audi",
     country: "Germany",
-    logo: "/images/logos/audi-logo.png",
+    logo: "https://pictures.dealer.com/k/keyesaudishermanoaksaoa/0416/d82ee5a1af7fd3baa30a98070b91144ax.jpg",
     models: [
       {
         id: 101,
@@ -28,7 +28,7 @@ export const carDatabase: CarMake[] = [
         year: 2022,
         price: 450000,
         mileage: 15000,
-        image: "/images/cars/audi-a3.jpg",
+        image: "https://mediaservice.audi.com/media/fast/H4sIAAAAAAAA_1vzloG1tIiBOTrayfuvpGh6-m1zJgaGigIGBgZGoDhTtNOaz-I_2DhCHsCEtzEwF-SlMwJZKUycmbmJ6an6QD4_I3taTmV-aUkxO0grz7PmIx6sXZzvTzDtPG_IpZsjySL4m4EVqIuRD0gwFwEJfm4gwWnIACZB5qWCiGgQn8mZmYGBtQLIiGQAAT6-0qKcgsSixFy98syUkgxBDQMigTC7i2uIo6dPMADsmrkc6QAAAA",
       },
       {
         id: 102,
@@ -36,7 +36,7 @@ export const carDatabase: CarMake[] = [
         year: 2021,
         price: 680000,
         mileage: 25000,
-        image: "/images/cars/audi-q5.jpg",
+        image: "https://storage.googleapis.com/cdn.callacar.co.za/vehicles/new/640/131015/1/131015-1.jpg?344",
       },
       {
         id: 103,
@@ -44,7 +44,7 @@ export const carDatabase: CarMake[] = [
         year: 2023,
         price: 1250000,
         mileage: 5000,
-        image: "/images/cars/audi-etron.jpg",
+        image: "https://imgd.aeplcdn.com/1920x1080/n/cw/ec/39045/e-tron-sportback-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80&q=80",
       },
     ],
   },
@@ -52,7 +52,7 @@ export const carDatabase: CarMake[] = [
     id: 2,
     name: "BMW",
     country: "Germany",
-    logo: "/images/logos/bmw-logo.png",
+    logo: "https://www.clipartmax.com/png/middle/183-1837795_bmw-bmw-logo.png",
     models: [
       {
         id: 201,
@@ -60,7 +60,7 @@ export const carDatabase: CarMake[] = [
         year: 2022,
         price: 650000,
         mileage: 18000,
-        image: "/images/cars/bmw-3series.jpg",
+        image: "https://imgd.aeplcdn.com/1920x1080/cw/ec/37067/BMW-3-Series-Exterior-167583.jpg?wm=0&q=80&q=80",
       },
       {
         id: 202,
@@ -68,7 +68,7 @@ export const carDatabase: CarMake[] = [
         year: 2021,
         price: 950000,
         mileage: 22000,
-        image: "/images/cars/bmw-x5.jpg",
+        image: "https://larte-design.com/storage/app/media/models/bmw/x5m-competition-front-site-carbon-gray-donington.webp",
       },
       {
         id: 203,
@@ -76,7 +76,7 @@ export const carDatabase: CarMake[] = [
         year: 2023,
         price: 1150000,
         mileage: 8000,
-        image: "/images/cars/bmw-i4.jpg",
+        image: "https://imgd.aeplcdn.com/1920x1080/n/cw/ec/109123/i4-exterior-right-front-three-quarter.jpeg?isig=0&q=80&q=80",
       },
     ],
   },
@@ -84,7 +84,7 @@ export const carDatabase: CarMake[] = [
     id: 3,
     name: "Ford",
     country: "United States",
-    logo: "/images/logos/ford-logo.png",
+    logo: "https://m.media-amazon.com/images/I/61ezMFTAW3L.jpg",
     models: [
       {
         id: 301,
@@ -92,7 +92,7 @@ export const carDatabase: CarMake[] = [
         year: 2022,
         price: 850000,
         mileage: 12000,
-        image: "/images/cars/ford-mustang.jpg",
+        image: "https://www.vdm.ford.com/content/dam/na/ford/en_us/images/mustang/2025/jellybeans/Ford_Mustang_2025_101A_PYZ_882_89W_13A_CON_64F_99H_44U_EBST_DEFAULT_EXT_4.png",
       },
       {
         id: 302,
@@ -100,7 +100,7 @@ export const carDatabase: CarMake[] = [
         year: 2021,
         price: 520000,
         mileage: 35000,
-        image: "/images/cars/ford-ranger.jpg",
+        image: "https://www.ford.ie/content/dam/guxeu/rhd/central/cvs/all-new-ranger-2022/features/ford-ranger-eu-P703_EU_LHD_TREMOR-16x9-2160x1215.jpg.renditions.original.png",
       },
       {
         id: 303,
@@ -108,7 +108,7 @@ export const carDatabase: CarMake[] = [
         year: 2023,
         price: 750000,
         mileage: 15000,
-        image: "/images/cars/ford-everest.jpg",
+        image: "https://www.eagleford.co.za/images/Vehicles/Everest/Updated/Colours/Platinum/Absolute_Black.png",
       },
     ],
   },
