@@ -73,7 +73,7 @@ export function SimpleFinanceForm() {
     <Form {...form}>
       <div className="flex justify-center mb-6">
         <div className="relative h-16 w-16">
-          <Image src="/images/ln-logo.png" alt="LN Car Connect Logo" fill className="object-contain" />
+          <Image src="https://www.creativefabrica.com/wp-content/uploads/2019/03/Monogram-LN-Logo-Design-by-Greenlines-Studios.jpg" alt="LN Car Connect Logo" fill className="object-contain" />
         </div>
       </div>
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-5">
