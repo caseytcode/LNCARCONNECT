@@ -19,7 +19,7 @@ export default function Footer() {
           >
             <div className="flex items-center gap-3">
               <div className="relative h-12 w-12">
-                <Image src="/images/ln-logo.png" alt="LN Car Connect Logo" fill className="object-contain" />
+                <Image src="https://www.creativefabrica.com/wp-content/uploads/2019/03/Monogram-LN-Logo-Design-by-Greenlines-Studios-1.jpg" alt="LN Car Connect Logo" fill className="object-contain" />
               </div>
               <h3 className="text-lg font-medium">LN Car Connect</h3>
             </div>
