@@ -192,29 +192,54 @@ export default function HomePage() {
             viewport={{ once: true }}
             variants={staggerContainer}
           >
-            {[1, 2, 3].map((i) => (
-              <motion.div key={i} variants={fadeIn}>
+            {[
+              {
+                id: 1,
+                imageUrl: "https://res.cloudinary.com/halfway-group/image/upload/f_auto,fl_lossy/w_636%2Cq_90%2Cc_scale/v1719467948/oem/full/toyota/corolla/60027781/colour-selectors/attitude_black_q37u1m.png",
+                model: "Toyota Corolla 2020",
+                price: "R250,000",
+                mileage: "30,000 km",
+                year: 2020,
+              },
+              {
+                id: 2,
+                imageUrl: "https://media.cdntoyota.co.za/toyotacms23/attachments/clhggojmoj9xbcfw18tkrg5xe-gr-corolla-hatch-core-ret-040-rgb.desktop.png",
+                model: "Toyota Corolla Hatchback 2021",
+                price: "R275,000",
+                mileage: "20,000 km",
+                year: 2021,
+              },
+              {
+                id: 3,
+                imageUrl: "https://www.toyota.com.sg/showroom/new-models/-/media/b1275effd9d845adbfdb31317d726b11.png",
+                model: "Toyota Corolla Sedan 2022",
+                price: "R300,000",
+                mileage: "15,000 km",
+                year: 2022,
+              },
+            ].map((car) => (
+              <motion.div key={car.id} variants={fadeIn}>
                 <Card className="overflow-hidden transition-all hover:shadow-lg">
                   <div className="relative h-48">
                     <Image
-                      src="https://res.cloudinary.com/halfway-group/image/upload/f_auto,fl_lossy/w_636%2Cq_90%2Cc_scale/v1719467948/oem/full/toyota/corolla/60027781/colour-selectors/attitude_black_q37u1m.png"
-                      alt={`Featured car ${i}`}
+                      src={car.imageUrl}
+                      alt={`Featured car ${car.model}`}
                       fill
                       className="object-cover"
                     />
                   </div>
                   <CardContent className="p-6">
-                    <h3 className="mb-2 text-xl font-medium">Toyota Corolla {2020 + i}</h3>
+                    <h3 className="mb-2 text-xl font-medium">{car.model}</h3>
                     <div className="mb-4 grid grid-cols-2 gap-2 text-sm">
                       <div className="text-muted-foreground">Price:</div>
-                      <div className="font-medium">R{250000 + i * 25000}</div>
+                      <div className="font-medium">{car.price}</div>
                       <div className="text-muted-foreground">Mileage:</div>
-                      <div className="font-medium">{30000 + i * 10000} km</div>
+                      <div className="font-medium">{car.mileage}</div>
                       <div className="text-muted-foreground">Year:</div>
-                      <div className="font-medium">{2020 + i}</div>
+                      <div className="font-medium">{car.year}</div>
                     </div>
                     <Button asChild className="w-full transition-all hover:bg-primary/90">
-                      <Link href={`/cars/${i}`}>View Details</Link>
+                      <Link href={`/cars/${car.id}`}>View Details</Link>
                     </Button>
                   </CardContent>
                 </Card>
@@ -275,18 +300,8 @@ export default function HomePage() {
             <Button asChild size="lg" variant="default" className="transition-transform hover:scale-105">
               <Link href="/cars">Browse Available Cars</Link>
             </Button>
-            <Button
-              asChild
-              size="lg"
-              variant="outline"
-              className="border-white bg-transparent hover:bg-white/10 transition-transform hover:scale-105"
-            >
-              <Link href="/sell">Sell Your Car</Link>
-            </Button>
-            <Button asChild size="lg" variant="secondary" className="transition-transform hover:scale-105">
-              <Link href="https://wa.me/27630636275" target="_blank">
-                Contact Us on WhatsApp
-              </Link>
+            <Button asChild size="lg" variant="outline" className="transition-transform hover:scale-105">
+              <Link href="/about">Learn More</Link>
             </Button>
           </motion.div>
         </div>
