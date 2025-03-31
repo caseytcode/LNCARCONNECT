@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link"
 import Image from "next/image"
 import { Check, ChevronRight, Search } from "lucide-react"
@@ -33,7 +35,7 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/60 z-10"></div>
         <div
           className="absolute inset-0 bg-fixed bg-center bg-cover"
-          style={{ backgroundImage: "url('https://media.istockphoto.com/id/530705675/photo/steering-of-bmw.jpg?s=1024x1024&w=is&k=20&c=H1W-V9GOd_gGKE8pVMch0vrMtdvmjAC9XGw4Yw4PKek=')" }}
+          style={{ backgroundImage: "url('/images/backgrounds/hero-bg.jpg')" }}
         ></div>
         <motion.div
           className="container relative z-20 flex h-full flex-col items-center justify-center text-center text-white"
@@ -43,7 +45,7 @@ export default function HomePage() {
         >
           <div className="mb-6">
             <Image
-              src="../images/ln-logo.png"
+              src="/images/ln-logo.png"
               alt="LN Car Connect Logo"
               width={120}
               height={120}
@@ -195,8 +197,8 @@ export default function HomePage() {
                 <Card className="overflow-hidden transition-all hover:shadow-lg">
                   <div className="relative h-48">
                     <Image
-                      src={/placeholder.svg?height=480&width=640&text=Car+${i}}
-                      alt={Featured car ${i}}
+                      src={`/placeholder.svg?height=480&width=640&text=Car+${i}`}
+                      alt={`Featured car ${i}`}
                       fill
                       className="object-cover"
                     />
@@ -212,7 +214,7 @@ export default function HomePage() {
                       <div className="font-medium">{2020 + i}</div>
                     </div>
                     <Button asChild className="w-full transition-all hover:bg-primary/90">
-                      <Link href={/cars/${i}}>View Details</Link>
+                      <Link href={`/cars/${i}`}>View Details</Link>
                     </Button>
                   </CardContent>
                 </Card>
@@ -292,3 +294,4 @@ export default function HomePage() {
     </div>
   )
 }
+
