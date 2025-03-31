@@ -35,7 +35,7 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/60 z-10"></div>
         <div
           className="absolute inset-0 bg-fixed bg-center bg-cover"
-          style={{ backgroundImage: "url('https://media.istockphoto.com/id/530705675/photo/steering-of-bmw.jpg?s=1024x1024&w=is&k=20&c=H1W-V9GOd_gGKE8pVMch0vrMtdvmjAC9XGw4Yw4PKek=')" }}
+          style={{ backgroundImage: "url('https://www.senkyr.cz/data/katalog/kategorie/358-interier-pro-automobil-bmw-m4-g82_main.jpg')" }}
         ></div>
         <motion.div
           className="container relative z-20 flex h-full flex-col items-center justify-center text-center text-white"
