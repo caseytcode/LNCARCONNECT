@@ -33,7 +33,7 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/60 z-10"></div>
         <div
           className="absolute inset-0 bg-fixed bg-center bg-cover"
-          style={{ backgroundImage: "url('https://www.senkyr.cz/data/katalog/kategorie/358-interier-pro-automobil-bmw-m4-g82_main.jpg')" }}
+          style={{ backgroundImage: "url('https://media.istockphoto.com/id/530705675/photo/steering-of-bmw.jpg?s=1024x1024&w=is&k=20&c=H1W-V9GOd_gGKE8pVMch0vrMtdvmjAC9XGw4Yw4PKek=')" }}
         ></div>
         <motion.div
           className="container relative z-20 flex h-full flex-col items-center justify-center text-center text-white"
@@ -43,7 +43,8 @@ export default function HomePage() {
         >
           <div className="mb-6">
             <Image
-              src="https://static.vecteezy.com/system/resources/previews/003/739/977/large_2x/ln-logo-monogram-with-slash-style-design-template-free-vector.jpg"
+              src="../images/ln-logo.png"
+              alt="LN Car Connect Logo"
               width={120}
               height={120}
               className="mx-auto"
@@ -194,7 +195,7 @@ export default function HomePage() {
                 <Card className="overflow-hidden transition-all hover:shadow-lg">
                   <div className="relative h-48">
                     <Image
-                      src={https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.halfway4ways.co.za%2Fvehicle%2Ftoyota-corolla-1-8-xs-hybrid-cvt&psig=AOvVaw2Mu3cNkNMYCpfcps539FpJ&ust=1743540020274000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOi1nu-WtYwDFQAAAAAdAAAAABAJ}
+                      src={/placeholder.svg?height=480&width=640&text=Car+${i}}
                       alt={Featured car ${i}}
                       fill
                       className="object-cover"
@@ -291,4 +292,3 @@ export default function HomePage() {
     </div>
   )
 }
-
