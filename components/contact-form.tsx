@@ -150,7 +150,7 @@ export function ContactForm() {
             ) : (
               <div className="flex items-center">
                 <div className="relative w-5 h-5 mr-2">
-                  <Image src="/images/ln-logo.png" alt="" fill className="object-contain" />
+                  <Image src="https://www.creativefabrica.com/wp-content/uploads/2019/03/Monogram-LN-Logo-Design-by-Greenlines-Studios.jpg" alt="" fill className="object-contain" />
                 </div>
                 <span>Send to WhatsApp</span>
               </div>
