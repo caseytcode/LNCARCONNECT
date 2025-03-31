@@ -43,7 +43,7 @@ export default function Navbar() {
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
           <div className="relative h-10 w-10 md:h-12 md:w-12">
-            <Image src="/images/ln-logo.png" alt="LN Car Connect Logo" fill className="object-contain" priority />
+            <Image src="https://www.creativefabrica.com/wp-content/uploads/2019/03/Monogram-LN-Logo-Design-by-Greenlines-Studios-1.jpg" alt="LN Car Connect Logo" fill className="object-contain" priority />
           </div>
           <span className="text-xl font-bold tracking-tight hidden sm:inline-block">LN Car Connect</span>
         </Link>
