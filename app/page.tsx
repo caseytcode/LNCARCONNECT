@@ -46,7 +46,6 @@ export default function HomePage() {
           <div className="mb-6">
             <Image
               src="https://static.vecteezy.com/system/resources/previews/003/739/977/large_2x/ln-logo-monogram-with-slash-style-design-template-free-vector.jpg"
-              alt="LN Car Connect Logo"
               width={120}
               height={120}
               className="mx-auto"
