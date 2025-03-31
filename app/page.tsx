@@ -45,7 +45,7 @@ export default function HomePage() {
         >
           <div className="mb-6">
             <Image
-              src="/images/ln-logo.png"
+              src="../images/ln-logo.png"
               alt="LN Car Connect Logo"
               width={120}
               height={120}
