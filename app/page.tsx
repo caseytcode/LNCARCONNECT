@@ -196,7 +196,7 @@ export default function HomePage() {
                 <Card className="overflow-hidden transition-all hover:shadow-lg">
                   <div className="relative h-48">
                     <Image
-                      src={`/placeholder.svg?height=480&width=640&text=Car+${i}`}
+                      src={`https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.halfway4ways.co.za%2Fvehicle%2Ftoyota-corolla-1-8-xs-hybrid-cvt&psig=AOvVaw2Mu3cNkNMYCpfcps539FpJ&ust=1743540020274000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOi1nu-WtYwDFQAAAAAdAAAAABAJ`}
                       alt={`Featured car ${i}`}
                       fill
                       className="object-cover"
