@@ -33,7 +33,7 @@ export default function FinancingPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 to-black/60 z-10"></div>
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/images/backgrounds/financing-hero.jpg')" }}
+          style={{ backgroundImage: "url('https://www.risk.net/sites/default/files/styles/landscape_480_296/public/2019-11/South-African-rand.jpg.webp?itok=VpVDq7Vz')" }}
         ></div>
         <div className="container relative z-20 flex h-full flex-col items-center justify-center text-center text-white">
           <motion.h1
