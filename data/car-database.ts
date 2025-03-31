@@ -116,7 +116,7 @@ export const carDatabase: CarMake[] = [
     id: 4,
     name: "Honda",
     country: "Japan",
-    logo: "/images/logos/honda-logo.png",
+    logo: "https://www.freeiconspng.com/uploads/honda-logo-hd-1080p-png-meaning-information-5.png",
     models: [
       {
         id: 401,
@@ -124,7 +124,7 @@ export const carDatabase: CarMake[] = [
         year: 2022,
         price: 380000,
         mileage: 18000,
-        image: "/images/cars/honda-civic.jpg",
+        image: "https://automobiles.honda.com/-/media/Honda-Automobiles/Vehicles/2025/civic-sedan/non-VLP/10-Family/MY25_Civic_Family_Card_Jelly_Hybrid_2x.jpg?sc_lang=en",
       },
       {
         id: 402,
@@ -132,7 +132,7 @@ export const carDatabase: CarMake[] = [
         year: 2021,
         price: 450000,
         mileage: 25000,
-        image: "/images/cars/honda-crv.jpg",
+        image: "https://vehicle-images.dealerinspire.com/stock-images/chrome/c1b4c27763ac0c81cc185217d449f7d7.png",
       },
       {
         id: 403,
@@ -140,7 +140,7 @@ export const carDatabase: CarMake[] = [
         year: 2023,
         price: 420000,
         mileage: 12000,
-        image: "/images/cars/honda-hrv.jpg",
+        image: "https://autovista24.autovistagroup.com/wp-content/uploads/sites/5/2022/02/329172_Honda_HR-V_e_HEV_2021-resized.jpg",
       },
     ],
   },
@@ -148,7 +148,7 @@ export const carDatabase: CarMake[] = [
     id: 5,
     name: "Hyundai",
     country: "South Korea",
-    logo: "/images/logos/hyundai-logo.png",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hyundai_Motor_Company_logo.svg/1280px-Hyundai_Motor_Company_logo.svg.png",
     models: [
       {
         id: 501,
@@ -156,7 +156,7 @@ export const carDatabase: CarMake[] = [
         year: 2022,
         price: 420000,
         mileage: 20000,
-        image: "/images/cars/hyundai-tucson.jpg",
+        image: "https://img.autotrader.co.za/13582079",
       },
       {
         id: 502,
@@ -164,7 +164,7 @@ export const carDatabase: CarMake[] = [
         year: 2021,
         price: 550000,
         mileage: 28000,
-        image: "/images/cars/hyundai-santafe.jpg",
+        image: "https://cdn.hyundai.co.za/SUV___Santa_Fe_webp_1708428117.webp",
       },
       {
         id: 503,
@@ -172,7 +172,7 @@ export const carDatabase: CarMake[] = [
         year: 2023,
         price: 850000,
         mileage: 10000,
-        image: "/images/cars/hyundai-ioniq5.jpg",
+        image: "https://www.hyundai.com/content/dam/hyundai/au/en/models/ioniq5/2025/ioniq5/side-profile/Hero_IONIQ5_MY25_950x415.png",
       },
     ],
   },
@@ -180,7 +180,7 @@ export const carDatabase: CarMake[] = [
     id: 6,
     name: "Kia",
     country: "South Korea",
-    logo: "/images/logos/kia-logo.png",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/1/13/Kia-logo.png",
     models: [
       {
         id: 601,
@@ -188,7 +188,7 @@ export const carDatabase: CarMake[] = [
         year: 2022,
         price: 410000,
         mileage: 22000,
-        image: "/images/cars/kia-sportage.jpg",
+        image: "https://file.kelleybluebookimages.com/kbb/base/evox/CP/53393/2025-Kia-Sportage-front_53393_032_1815x859_DWR_cropped.png",
       },
       {
         id: 602,
@@ -196,7 +196,7 @@ export const carDatabase: CarMake[] = [
         year: 2021,
         price: 520000,
         mileage: 30000,
-        image: "/images/cars/kia-sorento.jpg",
+        image: "https://dealerinspire-image-library-prod.s3.us-east-1.amazonaws.com/images/KT3dTo5VNy9NOpM9AI5bvDtnfMrXR9JjjbDzwo0J.png",
       },
       {
         id: 603,
@@ -204,7 +204,7 @@ export const carDatabase: CarMake[] = [
         year: 2023,
         price: 820000,
         mileage: 8000,
-        image: "/images/cars/kia-ev6.jpg",
+        image: "https://www.kia.com/content/dam/kwcms/kme/global/en/assets/vehicles/ev6/ev6-pe-my25/digital-discover/kia-ev6-pe-gtl-34front.png",
       },
     ],
   },
@@ -212,7 +212,7 @@ export const carDatabase: CarMake[] = [
     id: 7,
     name: "Lexus",
     country: "Japan",
-    logo: "/images/logos/lexus-logo.png",
+    logo: "https://wallpapers.com/images/featured/lexus-logo-jz59gtyb4drba1e9.jpg",
     models: [
       {
         id: 701,
@@ -220,7 +220,7 @@ export const carDatabase: CarMake[] = [
         year: 2022,
         price: 780000,
         mileage: 15000,
-        image: "/images/cars/lexus-es.jpg",
+        image: "https://tmna.aemassets.toyota.com/is/image/toyota/lexus/images/models/es/2022/styles/Lexus-ES-250-AWD-visualizer-styles-750x471-LEX-ESG-MY22-0026-04.png?wid=750&hei=471&fmt=png-alpha",
       },
       {
         id: 702,
@@ -228,7 +228,7 @@ export const carDatabase: CarMake[] = [
         year: 2021,
         price: 950000,
         mileage: 22000,
-        image: "/images/cars/lexus-rx.jpg",
+        image: "https://gld-creative.s3.us-west-2.amazonaws.com/2025-lexus-rx-350h-premium-awd-207175de2144-600x300.png",
       },
       {
         id: 703,
@@ -236,7 +236,7 @@ export const carDatabase: CarMake[] = [
         year: 2023,
         price: 720000,
         mileage: 12000,
-        image: "/images/cars/lexus-ux.jpg",
+        image: "https://img-optimize.lexus-europe.com/resize/ccis/680x680/zip/ie/configurationtype/visual-for-grade-selector/product-token/7133cba0-d96c-426c-b093-4b8d4a172347/grade/65aed576-f3b5-4c6d-84ec-db932c89cd58/body/4045302a-5701-44a0-bceb-a160f390a68b/fallback/true/padding/50,50,50,50/image-quality/70/day-exterior-4.png",
       },
     ],
   },
