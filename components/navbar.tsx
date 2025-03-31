@@ -42,9 +42,6 @@ export default function Navbar() {
     >
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
-          <div className="relative h-10 w-10 md:h-12 md:w-12">
-            <span className="text-xl font-bold tracking-tight hidden sm:inline-block">LN Car Connect</span>
-          </div>
           <span className="text-xl font-bold tracking-tight hidden sm:inline-block">LN Car Connect</span>
         </Link>
 
