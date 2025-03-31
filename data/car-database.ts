@@ -244,7 +244,7 @@ export const carDatabase: CarMake[] = [
     id: 8,
     name: "Mazda",
     country: "Japan",
-    logo: "/images/logos/mazda-logo.png",
+    logo: "https://pngimg.com/d/mazda_PNG86.png",
     models: [
       {
         id: 801,
@@ -252,7 +252,7 @@ export const carDatabase: CarMake[] = [
         year: 2022,
         price: 450000,
         mileage: 18000,
-        image: "/images/cars/mazda-cx5.jpg",
+        image: "https://www.mazda.co.za/hubfs/01_cx5_dynamic_560x294px.png",
       },
       {
         id: 802,
@@ -260,7 +260,7 @@ export const carDatabase: CarMake[] = [
         year: 2021,
         price: 380000,
         mileage: 25000,
-        image: "/images/cars/mazda-3.jpg",
+        image: "https://www.mazda.com.au/49b7c7/globalassets/settings/vehicle-assets/mazda3/2023-05-ipm---bt2/external-quickcuts/01.-g20-pure/maz15253_mazda3_auto_g20_pure_hatch_deep_crystal_blue_300qah5g20p_front-3-4_980x520.png",
       },
       {
         id: 803,
@@ -268,7 +268,7 @@ export const carDatabase: CarMake[] = [
         year: 2023,
         price: 650000,
         mileage: 10000,
-        image: "/images/cars/mazda-mx5.jpg",
+        image: "https://vehicle-images.dealerinspire.com/093d-18003295/thumbnails/large/JM1NDAC71S0653335/eb277afa3df024ab0be0a2c17889fc8f.jpg",
       },
     ],
   },
@@ -276,7 +276,7 @@ export const carDatabase: CarMake[] = [
     id: 9,
     name: "Mercedes-Benz",
     country: "Germany",
-    logo: "/images/logos/mercedes-logo.png",
+    logo: "https://www.shutterstock.com/image-vector/mercedez-benz-logo-sign-symbol-260nw-2269884157.jpg",
     models: [
       {
         id: 901,
@@ -284,7 +284,7 @@ export const carDatabase: CarMake[] = [
         year: 2022,
         price: 750000,
         mileage: 15000,
-        image: "/images/cars/mercedes-cclass.jpg",
+        image: "https://www.mercedes-benz.co.za/content/dam/hq/passengercars/cars/c-class/c-class-saloon-w206-pi/modeloverview/06-2022/images/mercedes-benz-c-class-w206-modeloverview-696x392-06-2022.png",
       },
       {
         id: 902,
@@ -292,7 +292,7 @@ export const carDatabase: CarMake[] = [
         year: 2021,
         price: 1200000,
         mileage: 20000,
-        image: "/images/cars/mercedes-gle.jpg",
+        image: "https://www.mercedes-benz-kenya.com/media/gamme/modeles/images/s3%20gle%20coupe%20amg%20n6.jpg",
       },
       {
         id: 903,
@@ -300,7 +300,7 @@ export const carDatabase: CarMake[] = [
         year: 2023,
         price: 1850000,
         mileage: 5000,
-        image: "/images/cars/mercedes-eqs.jpg",
+        image: "https://www.mercedes-benz.co.za/content/dam/hq/passengercars/cars/eqs/eqs-v297-pi/modeloverview/08-2022/images/mercedes-eq-eqs-v297-modeloverview-3302x1858-08-2022.png",
       },
     ],
   },
@@ -308,7 +308,7 @@ export const carDatabase: CarMake[] = [
     id: 10,
     name: "Nissan",
     country: "Japan",
-    logo: "/images/logos/nissan-logo.png",
+    logo: "https://w0.peakpx.com/wallpaper/817/465/HD-wallpaper-nissan-logo-logo-nissan.jpg",
     models: [
       {
         id: 1001,
@@ -316,7 +316,7 @@ export const carDatabase: CarMake[] = [
         year: 2022,
         price: 420000,
         mileage: 18000,
-        image: "/images/cars/nissan-qashqai.jpg",
+        image: "https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_europe/Configurator/Qashqai-my24/configurator-webp/QQMC-ICE-N-Connecta.png.webp",
       },
       {
         id: 1002,
@@ -332,15 +332,14 @@ export const carDatabase: CarMake[] = [
         year: 2023,
         price: 650000,
         mileage: 10000,
-        image: "/images/cars/nissan-leaf.jpg",
-      },
+        image: "https://produktanissan.co.za/wp-content/uploads/2023/10/Acenta-Plus-4X4-1440x1280.jpg.ximg_.l_full_h.smart_.webp"
     ],
   },
   {
     id: 11,
     name: "Porsche",
     country: "Germany",
-    logo: "/images/logos/porsche-logo.png",
+    logo: "https://crystalpng.com/wp-content/uploads/2025/01/porsche-logo-png-in-black-circle-min.png",
     models: [
       {
         id: 1101,
@@ -348,7 +347,7 @@ export const carDatabase: CarMake[] = [
         year: 2022,
         price: 2200000,
         mileage: 8000,
-        image: "/images/cars/porsche-911.jpg",
+        image: "https://images-porsche.imgix.net/-/media/18BDB8E5546C4BA4A12F88891D661876_76C4D93742CD42E8BEBE222C39477D82_911-carrera-4-gts-front?w=999&q=85&auto=format"
       },
       {
         id: 1102,
@@ -356,7 +355,7 @@ export const carDatabase: CarMake[] = [
         year: 2021,
         price: 1500000,
         mileage: 15000,
-        image: "/images/cars/porsche-cayenne.jpg",
+        image: "https://images-porsche.imgix.net/-/media/37BB1FB7E40C4C92BCD7136E2B5543F3_3F7362BE29A7461FA64000FD5E412B9C_cayenne-turbo-e-hybrid-side?w=2560&h=811&q=45&crop=faces%2Centropy%2Cedges&auto=format",
       },
       {
         id: 1103,
@@ -364,7 +363,7 @@ export const carDatabase: CarMake[] = [
         year: 2023,
         price: 2500000,
         mileage: 5000,
-        image: "/images/cars/porsche-taycan.jpg",
+        image: "https://images-porsche.imgix.net/-/media/8712BA7A6DA34147976BB552A8D62F11_204445A831004729A6C3F2BCDB51A5C1_TA24Q3NIX0010-taycan-turbo-cross-turismo-side?w=2560&h=697&q=45&crop=faces%2Centropy%2Cedges&auto=format",
       },
     ],
   },
