@@ -8,6 +8,41 @@ import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
 import { motion } from "framer-motion"
 import { BotpressChat } from '@/components/BotpressChat';  // Import your BotpressChat component
+import { Webchat, WebchatProvider, Fab, getClient } from "@botpress/webchat";
+import { buildTheme } from "@botpress/webchat-generator";
+import { useState } from "react";
+
+const { theme, style } = buildTheme({
+  themeName: "prism",
+  themeColor: "#000000",
+});
+
+const clientId = "1a215e37-124f-4b62-840b-52e9a406d0db";
+export default function App() {
+  const client = getClient({ clientId });
+  const [isWebchatOpen, setIsWebchatOpen] = useState(false);
+  const toggleWebchat = () => {
+    setIsWebchatOpen((prevState) => !prevState);
+  };
+  return (
+    <div style={{ width: "100vw", height: "100vh" }}>
+      <style>{style}</style>
+      <WebchatProvider
+        theme={theme}
+        client={client}
+      >
+        <Fab onClick={toggleWebchat} />
+        <div
+          style={{
+            display: isWebchatOpen ? "block" : "none",
+          }}
+        >
+          <Webchat />
+        </div>
+      </WebchatProvider>
+    </div>
+  );
+}
 
 
 const fadeIn = {
