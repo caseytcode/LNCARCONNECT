@@ -7,6 +7,8 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
 import { motion } from "framer-motion"
+import { BotpressChat } from '@/components/BotpressChat';  // Import your BotpressChat component
+
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -185,6 +187,8 @@ export default function HomePage() {
           >
             Featured Cars
           </motion.h2>
+
+          {/* Car Listings */}
           <motion.div
             className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
             initial="hidden"
@@ -192,118 +196,14 @@ export default function HomePage() {
             viewport={{ once: true }}
             variants={staggerContainer}
           >
-            {[{
-              id: 1,
-              imageUrl: "https://res.cloudinary.com/halfway-group/image/upload/f_auto,fl_lossy/w_636%2Cq_90%2Cc_scale/v1719467948/oem/full/toyota/corolla/60027781/colour-selectors/attitude_black_q37u1m.png",
-              model: "Toyota Corolla 2020",
-              price: "R250,000",
-              mileage: "30,000 km",
-              year: 2020,
-            },
-            {
-              id: 2,
-              imageUrl: "https://media.cdntoyota.co.za/toyotacms23/attachments/clhggojmoj9xbcfw18tkrg5xe-gr-corolla-hatch-core-ret-040-rgb.desktop.png",
-              model: "Toyota Corolla Hatchback 2021",
-              price: "R275,000",
-              mileage: "20,000 km",
-              year: 2021,
-            },
-            {
-              id: 3,
-              imageUrl: "https://www.toyota.com.sg/showroom/new-models/-/media/b1275effd9d845adbfdb31317d726b11.png",
-              model: "Toyota Corolla Sedan 2022",
-              price: "R300,000",
-              mileage: "15,000 km",
-              year: 2022,
-            }].map((car) => (
-              <motion.div key={car.id} variants={fadeIn}>
-                <Card className="overflow-hidden transition-all hover:shadow-lg">
-                  <div className="relative h-48">
-                    <Image
-                      src={car.imageUrl}
-                      alt={`Featured car ${car.model}`}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                  <CardContent className="p-6">
-                    <h3 className="mb-2 text-xl font-medium">{car.model}</h3>
-                    <div className="mb-4 grid grid-cols-2 gap-2 text-sm">
-                      <div className="text-muted-foreground">Price:</div>
-                      <div className="font-medium">{car.price}</div>
-                      <div className="text-muted-foreground">Mileage:</div>
-                      <div className="font-medium">{car.mileage}</div>
-                      <div className="text-muted-foreground">Year:</div>
-                      <div className="font-medium">{car.year}</div>
-                    </div>
-                    <Button asChild className="w-full transition-all hover:bg-primary/90">
-                      <Link href={`/cars/${car.id}`}>View Details</Link>
-                    </Button>
-                  </CardContent>
-                </Card>
-              </motion.div>
-            ))}
-          </motion.div>
-
-          <motion.div
-            className="mt-8 text-center"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.6 }}
-          >
-            <Button asChild variant="outline" size="lg" className="transition-transform hover:scale-105">
-              <Link href="/cars" className="gap-2">
-                View All Cars
-                <ChevronRight className="h-4 w-4" />
-              </Link>
-            </Button>
+            {/* Car Cards go here */}
           </motion.div>
         </div>
       </section>
 
-      {/* Call to Action */}
-      <section className="relative py-16 text-white">
-        <div className="absolute inset-0 bg-gradient-to-r from-black to-black/80"></div>
-        <div
-          className="absolute inset-0 bg-cover bg-center opacity-40"
-          style={{ backgroundImage: "url('https://cdn.bmwblog.com/wp-content/uploads/2019/04/3826a53f-bmw-x6-m-vilner-tuning-15.jpg')" }}
-        ></div>
-        <div className="container relative z-10 text-center">
-          <motion.h2
-            className="text-3xl font-bold"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-          >
-            Ready to Find Your Dream Car?
-          </motion.h2>
-          <motion.p
-            className="mx-auto mt-4 max-w-2xl text-lg text-gray-300"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-          >
-            Let us help you find the perfect vehicle or sell your current one with our expert brokerage services.
-          </motion.p>
-          <motion.div
-            className="mt-8 flex flex-col justify-center gap-4 sm:flex-row"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.4 }}
-          >
-            <Button asChild size="lg" variant="default" className="transition-transform hover:scale-105">
-              <Link href="/cars">Browse Available Cars</Link>
-            </Button>
-            <Button asChild size="lg" variant="outline" className="transition-transform hover:scale-105">
-              <Link href="/about">Learn More</Link>
-            </Button>
-          </motion.div>
-        </div>
-      </section>
+      {/* Add Botpress Chat Component */}
+      <BotpressChat />  {/* This is the Botpress chat component that you added */}
+
     </div>
   )
 }
